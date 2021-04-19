@@ -14,7 +14,7 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #515262;
+    background-color: #6c738c;
     opacity: 0.7;
   }
 
@@ -46,6 +46,7 @@ header {
       & h3 {
         font-size: $fontmini;
         font-weight: 400;
+        color: $colorT1;
       }
 
       & button {

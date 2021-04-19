@@ -7,3 +7,16 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.container {
+  width: $contwidth;
+  height: 100%;
+}
+
+p {
+  color: $colorT2;
+}
+
+h2,h3 {
+  color: $colorT3;
+}

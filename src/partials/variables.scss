@@ -5,10 +5,12 @@ $contwidth: 70%;
 
 // color text
 $colorT1: #fff;
-
+$colorT2: #6c738c;
+$colorT3: #515262;
 // font
 $fontbig: 44px;
 $fontgra: 36px;
+$fontsemig: 26px;
 $fontmed: 22px;
 $fontsmall: 18px;
 $fontmini: 14px;
@@ -30,4 +32,11 @@ $fontmini: 14px;
     margin-top: 15px * $i;
     margin-bottom: 15px * $i;
   }
+}
+
+@mixin cont-base{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
