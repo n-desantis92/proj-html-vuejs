@@ -29,11 +29,12 @@ section.main-top {
         width: calc(100% / 4);
 
         & h3 {
-          font-size: $fontsmall;
+          font-size: $fontmini;
         }
 
         p {
           width: 100%;
+          font-size: $fontExtraMini;
         }
       }
     }

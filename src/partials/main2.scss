@@ -1,0 +1,46 @@
+section.main-blue {
+  height: 100vh;
+  width: 100%;
+  background-color: $colSfondo1;
+  display: flex;
+  justify-content: center;
+
+  & .container {
+    @include cont-base;
+    text-align: center;
+
+    & h2 {
+      color: $colorT1;
+      font-size: $fontmed;
+      font-weight: 300;
+    }
+
+    & p {
+      width: 48%;
+      font-size: $fontmini;
+      line-height: 20px;
+    }
+
+    & .cont-phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & .info {
+        @include cont-base;
+        width: 40%;
+        text-align: left;
+
+        & h2 {
+          width: 80%;
+        }
+
+        & p {
+          width: 80%;
+        }
+
+      }
+    }
+  }
+
+}

@@ -7,6 +7,8 @@ $contwidth: 70%;
 $colorT1: #fff;
 $colorT2: #6c738c;
 $colorT3: #515262;
+// color sfondo
+$colSfondo1: #313C59;
 // font
 $fontbig: 44px;
 $fontgra: 36px;
@@ -14,6 +16,7 @@ $fontsemig: 26px;
 $fontmed: 22px;
 $fontsmall: 18px;
 $fontmini: 14px;
+$fontExtraMini: 12px;
 
 @for $i from 1 through 5 {
   .mt-#{$i} {
