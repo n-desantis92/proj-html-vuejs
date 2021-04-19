@@ -1,6 +1,9 @@
 header {
   width: 100%;
   height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
 
   video {
     object-fit: cover;

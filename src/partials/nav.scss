@@ -1,0 +1,51 @@
+nav {
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 60px;
+background-color: blue;
+
+  & .logo {
+    width: 100px;
+    height: 100%;
+    background-color: green;
+
+    & img {
+      width: 100%;
+
+    }
+  }
+
+  & .menu {
+    height: 100%;
+    background-color: yellow;
+    & ul {
+      height: 100%;
+      color: #fff;
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      li {
+        height: 100%;
+        background-color: purple;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+
+  & .status {
+    display: flex;
+    align-items: center;
+
+    & a {
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+}
