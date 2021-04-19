@@ -1,1 +1,33 @@
-$contwidth: 60%;
+// larghezze
+$contwidth: 70%;
+
+// altezze
+
+// color text
+$colorT1: #fff;
+
+// font
+$fontbig: 44px;
+$fontgra: 36px;
+$fontmed: 22px;
+$fontsmall: 18px;
+$fontmini: 14px;
+
+@for $i from 1 through 5 {
+  .mt-#{$i} {
+    margin-top: 15px * $i;
+  }
+}
+
+@for $i from 1 through 5 {
+  .mb-#{$i} {
+    margin-bottom: 15px * $i;
+  }
+}
+
+@for $i from 1 through 5 {
+  .mtb-#{$i} {
+    margin-top: 15px * $i;
+    margin-bottom: 15px * $i;
+  }
+}
