@@ -1,0 +1,53 @@
+.main-costumers {
+  width: 100%;
+  @include cont-base;
+  padding: 50px 0;
+
+  & h2 {
+    font-weight: 300;
+  }
+
+  & p {
+    font-size: $fontmini;
+    line-height: 20px;
+  }
+
+  & .cont-costumers {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    & .costumers {
+      @include cont-base;
+      width: calc((100% / 3) - 40px);
+      margin: 0 20px;
+      padding: 10px;
+      text-align: center;
+
+      & p {
+        font-size: $fontExtraMini;
+      }
+
+      & .profilo {
+        @include cont-base;
+        img {
+          width: 60px;
+          border-radius: 50%;
+        }
+
+        & h3 {
+          font-size: $fontsmall;
+        }
+
+        & h6 {
+          font-weight: 300;
+          color: $colorT2;
+        }
+
+      }
+    }
+  }
+}
