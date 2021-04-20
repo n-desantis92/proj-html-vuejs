@@ -23,13 +23,14 @@ section.main-blue {
 
     & .cont-phone {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
 
       & .info {
         @include cont-base;
         width: 40%;
         text-align: left;
+        align-items: baseline;
 
         & h2 {
           width: 80%;
@@ -39,6 +40,10 @@ section.main-blue {
           width: 80%;
         }
 
+      }
+
+      & img {
+        margin-right: 70px;
       }
     }
   }

@@ -1,0 +1,86 @@
+.main-course {
+  width: 100%;
+  @include cont-base;
+  padding: 80px 0;
+
+  & .container {
+    @include cont-base;
+
+    & h2 {
+      font-weight: 300;
+    }
+
+    & p {
+      text-align: center;
+      width: 33%;
+      font-size: $fontmini;
+      line-height: 20px;
+    }
+
+    & button {
+      @include btnPrimary;
+      padding: 10px 30px;
+      font-weight: bold;
+    }
+  }
+
+  & .cont-course {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & .course {
+      width: calc((100% / 3) - 20px);
+      background-image: url(../images/course4-600x359.png);
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      border-radius: 10px;
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+      margin: 10px;
+
+      &::after {
+        clear: both;
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.5);
+        opacity: 0.7;
+      }
+
+      & h2 {
+        color: $colorT1;
+        font-size: $fontmed;
+        font-weight: 300;
+        line-height: 20px;
+        width: 70%;
+        position: absolute;
+        top: 50px;
+        z-index: 3;
+        border-left: 3px solid $colorB1;
+        padding-left: 5px;
+
+      }
+      & p {
+        color: $colorT1;
+        font-size: $fontExtraMini;;
+        position: absolute;
+        bottom: 20px;
+        z-index: 3;
+        width: 100%;
+        text-align: left;
+        padding-left: 5px;
+
+
+      }
+    }
+  }
+}
