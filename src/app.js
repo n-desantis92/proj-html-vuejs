@@ -83,6 +83,43 @@ var app = new Vue({
         brandImg: "logo3.png",
       },
     ],
+    listaCustomers: [
+      {
+        custTitle: "A must for trainers",
+        custPar: "There are many variations of passages of Lorem ipsum available, but the majority have suffered...",
+        imgProfilo: "instructor3-460x460.jpg",
+        name: "JP Mcgraw",
+        ruolo: "ABC Inc.",
+      },
+      {
+        custTitle: "Great platform for low cost courses",
+        custPar: "There are many variations of passages of Lorem ipsum available, but the majority have suffered...",
+        imgProfilo: "instructor1-460x460.jpg",
+        name: "Martha Penn",
+        ruolo: "ABC Inc.",
+      },
+      {
+        custTitle: "Quality hands on training tool",
+        custPar: "There are many variations of passages of Lorem ipsum available, but the majority have suffered...",
+        imgProfilo: "instructor2-460x460.jpg",
+        name: "Mikhail",
+        ruolo: "CEO, FinTech",
+      },
+    ],
+    listaFooter: [
+      {
+        helpTitle: "About Company",
+        helper: ["Register","Activate","All Courses","Groups Directory","Members Directory"],
+      },
+      {
+        helpTitle: "Top Courses",
+        helper: ["Design Dynamics","Internet of Things Security","Deep Virtual Reality","Artificial Intelligence","Machine Learning Tools"],
+      },
+      {
+        helpTitle: "Popular Categories",
+        helper: ["Register","Activate","All Courses","Groups Directory","Members Directory"],
+      },
+    ],
   },
   method: {
 
