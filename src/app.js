@@ -69,6 +69,20 @@ var app = new Vue({
         settore: "INTELLIGENCE / TECHNOLOGY",
       },
     ],
+    listaBrand: [
+      {
+        brandImg: "logo2.png",
+      },
+      {
+        brandImg: "logo5.png",
+      },
+      {
+        brandImg: "logo4.png",
+      },
+      {
+        brandImg: "logo3.png",
+      },
+    ],
   },
   method: {
 
