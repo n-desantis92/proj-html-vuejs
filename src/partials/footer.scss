@@ -1,0 +1,46 @@
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: $colSfondo1;
+  @include cont-base;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+
+    & .logo {
+      width: 150px;
+
+      & img {
+        width: 50%;
+      }
+
+      & p {
+        font-size: $fontExtraMini;
+      }
+    }
+
+    & ul {
+      width: calc((100% / 3) - 150px);
+      list-style: none;
+
+      & li {
+        padding: 5px;
+        font-size: $fontExtraMini;
+
+        h3 {
+          color: $colorT2;
+          font-size: $fontExtraMini;
+        }
+
+        a {
+         color: $colorT2;
+         text-decoration: none;
+       }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.main-contact {
+  background-color: $colorB1;
+  width: 100%;
+  @include cont-base;
+  padding: 60px 0;
+
+  & .container {
+    & h2 {
+      color: $colorT1;
+      font-weight: 300;
+    }
+
+    & p {
+      color: $colorT1;
+      font-size: $fontmini;
+      font-weight: 300;
+    }
+
+    & button {
+      @include btnSecondary;
+      padding: 15px 30px;
+      font-weight: bold;
+    }
+  }
+}

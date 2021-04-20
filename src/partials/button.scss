@@ -6,3 +6,12 @@
   border: 0;
   cursor: pointer;
 }
+
+@mixin btnSecondary {
+  background-color: $colorB2;
+  border-radius: 2px;
+  color: $colorT3;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
