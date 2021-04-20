@@ -1,0 +1,32 @@
+.main-brand {
+  width: 100%;
+  @include cont-base;
+  padding: 60px 0;
+
+  & .container {
+    background-color: #fff;
+    @include cont-base;
+    text-align: center;
+    padding: 10px;
+    & h2 {
+      font-weight: 300;
+    }
+
+    & p {
+      font-size: $fontmini;
+      line-height: 20px;
+    }
+
+    & .cont-brands {
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      & img {
+        width: calc((100% / 4) - 80px);
+        margin: 10px 40px;
+      }
+    }
+  }
+}
