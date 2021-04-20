@@ -33,6 +33,11 @@
 
       & .profilo {
         @include cont-base;
+        transition: all 0.5s linear;
+
+        &:hover {
+          transform: scale(1.1);
+        }
         img {
           width: 60px;
           border-radius: 50%;
