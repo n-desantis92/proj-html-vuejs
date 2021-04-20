@@ -4,6 +4,7 @@ section.main-blue {
   background-color: $colSfondo1;
   display: flex;
   justify-content: center;
+  padding: 80px 40px;
 
   & .container {
     @include cont-base;

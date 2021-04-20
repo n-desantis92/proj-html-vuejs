@@ -34,12 +34,14 @@ h2,h3 {
   position: fixed;
   bottom: 15px;
   right: 10px;
-  color: $colorT1;
   background-color: rgba(0,0,0,0.5);
   padding: 4px;
   @include cont-base;
   cursor: pointer;
+  & a {
+    color: $colorT1;
 
+  }
   & p {
     color: $colorT1;
     font-size: 10px;;

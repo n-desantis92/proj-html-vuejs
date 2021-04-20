@@ -15,7 +15,7 @@ section.main-top {
 
     & p {
       font-size: $fontmini;
-      font-weight: 300;
+      font-weight: 400;
       width: 50%;
       line-height: 20px;
     }
@@ -35,6 +35,7 @@ section.main-top {
         p {
           width: 100%;
           font-size: $fontExtraMini;
+          font-weight: 400;
         }
       }
     }
