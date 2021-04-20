@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 0 80px;
   background-color: $colSfondo1;
   @include cont-base;
 
@@ -29,6 +29,7 @@ footer {
       & li {
         padding: 5px;
         font-size: $fontExtraMini;
+        font-weight: bold;
 
         h3 {
           color: $colorT2;

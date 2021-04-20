@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 .container {
@@ -27,4 +28,20 @@ h2,h3 {
 
 .textwhite {
   color: #fff;
+}
+
+.top {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  color: $colorT1;
+  background-color: rgba(0,0,0,0.5);
+  padding: 4px;
+  @include cont-base;
+  cursor: pointer;
+
+  & p {
+    color: $colorT1;
+    font-size: 10px;;
+  }
 }
