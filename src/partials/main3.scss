@@ -33,7 +33,6 @@
 
     & .course {
       width: calc((100% / 3) - 20px);
-      background-image: url(../images/course4-600x359.png);
       background-size: cover;
       background-position: center;
       padding: 10px;
@@ -57,30 +56,33 @@
         opacity: 0.7;
       }
 
-      & h2 {
-        color: $colorT1;
-        font-size: $fontmed;
-        font-weight: 300;
-        line-height: 20px;
-        width: 70%;
-        position: absolute;
-        top: 50px;
+      & .info-corso {
+        position: relative;
+        height: 100%;
+        width: 80%;
         z-index: 3;
-        border-left: 3px solid $colorB1;
-        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
 
-      }
-      & p {
-        color: $colorT1;
-        font-size: $fontExtraMini;;
-        position: absolute;
-        bottom: 20px;
-        z-index: 3;
-        width: 100%;
-        text-align: left;
-        padding-left: 5px;
+        & h2 {
+          color: $colorT1;
+          font-size: $fontmed;
+          font-weight: 400;
+          line-height: 20px;
+          border-left: 3px solid $colorB1;
+          padding-left: 5px;
 
-
+        }
+        & p {
+          color: $colorT1;
+          font-size: 10px;
+          font-weight: 500;
+          text-align: left;
+          padding-left: 10px;
+          width: 80%;
+          margin-top: 5px;
+        }
       }
     }
   }

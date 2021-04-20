@@ -96,10 +96,11 @@
         <p>Get instant access to <strong>over 2500 online courses.</strong> Join <strong>560,000 Students</strong> enrolled in the site.</p>
         <div class="cont-course mt-3">
           <!-- card corsi -->
-          <div class="course">
-            <!-- <img src="images/course4-600x359.png" alt="cpu"> -->
-            <h2 class="mtb-1">Software training reloaded</h2>
-            <p>INFORMATION TECH /<br> MACHINE LEARNING / TECHNOLOGY</p>
+          <div class="course" v-for="corso in listaCorsi" :style="{ 'background-image': 'url(images/' + corso.corsImg + ')' }">
+          <div class="info-corso">
+            <h2>{{corso.corsTitle}}</h2>
+            <p>{{corso.settore}}</p>
+          </div>
           </div>
           <!-- /card corsi -->
         </div>
