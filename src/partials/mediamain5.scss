@@ -1,0 +1,28 @@
+@media screen and (max-width: 880px) {
+
+  .main-costumers {
+    width: 100%;
+    text-align: center;
+
+    & .cont-costumers {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      & .costumers {
+        width: 100%;
+
+        & .profilo {
+
+          img {
+            width: 100px;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+    }
+  }
+
+}

@@ -583,9 +583,72 @@ footer .container ul li {
 }
 footer .container ul li h3 {
   color: #6c738c;
-  font-size: 14px;
+  font-size: 12px;
 }
 footer .container ul li a {
   color: #6c738c;
   text-decoration: none;
+}
+
+@media screen and (max-width: 880px) {
+  .main-costumers {
+    width: 100%;
+    text-align: center;
+  }
+  .main-costumers .cont-costumers {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main-costumers .cont-costumers .costumers {
+    width: 100%;
+  }
+  .main-costumers .cont-costumers .costumers .profilo img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    width: 100%;
+    background-color: #313C59;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .container .logo {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  footer .container .logo img {
+    width: 100%;
+  }
+  footer .container .logo p {
+    font-size: 14px;
+  }
+  footer .container ul {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+  footer .container ul li {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  footer .container ul li h3 {
+    margin-top: 20px;
+    color: #6c738c;
+    font-size: 14px;
+  }
+  footer .container ul li a {
+    color: #6c738c;
+    text-decoration: none;
+  }
 }
