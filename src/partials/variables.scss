@@ -21,6 +21,12 @@ $fontsmall: 18px;
 $fontmini: 14px;
 $fontExtraMini: 12px;
 
+// mediaquery break-points
+$breakpoint-smartphone: 480px;
+$breakpoint-tablet: 768px ;
+$breakpoint-desktop: 1024px;
+
+
 @for $i from 1 through 5 {
   .mt-#{$i} {
     margin-top: 15px * $i;

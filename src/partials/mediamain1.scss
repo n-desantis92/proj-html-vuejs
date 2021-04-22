@@ -1,0 +1,46 @@
+@media screen and (max-width: $breakpoint-tablet) {
+
+  section.main-top {
+
+    & .container {
+
+      & p {
+        width: 80%;
+      }
+
+      & .cont-features{
+        flex-direction: column;
+
+        & .features {
+          width: calc(100% / 1);
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+
+  section.main-top {
+
+    & .container {
+
+      & p {
+        width: 80%;
+      }
+
+      & .cont-features{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & .features {
+          width: calc((100% / 2) - 40px);
+          margin: 20px 20px;
+        }
+      }
+    }
+  }
+
+}

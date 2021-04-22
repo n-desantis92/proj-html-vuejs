@@ -282,7 +282,6 @@ section.main-top .container button i {
 }
 
 section.main-blue {
-  height: 100vh;
   width: 100%;
   background-color: #313C59;
   display: flex;
@@ -590,7 +589,98 @@ footer .container ul li a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 768px) {
+  section.main-top .container p {
+    width: 80%;
+  }
+  section.main-top .container .cont-features {
+    flex-direction: column;
+  }
+  section.main-top .container .cont-features .features {
+    width: calc(100% / 1);
+    margin: 20px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section.main-top .container p {
+    width: 80%;
+  }
+  section.main-top .container .cont-features {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section.main-top .container .cont-features .features {
+    width: calc((100% / 2) - 40px);
+    margin: 20px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.main-blue {
+    height: auto;
+  }
+  section.main-blue .container p {
+    width: 100%;
+  }
+  section.main-blue .container .cont-phone {
+    flex-direction: column;
+  }
+  section.main-blue .container .cont-phone .info {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  section.main-blue .container .cont-phone img {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section.main-blue {
+    height: auto;
+  }
+  section.main-blue .container img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-course .container .cont-course .course {
+    width: calc((100% / 1) - 20px);
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .main-course .container .cont-course .course {
+    width: calc((100% / 2) - 20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-course .container > h2 {
+    text-align: center;
+  }
+  .main-course .container p {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.main-brand .container .cont-brands {
+    width: 100%;
+  }
+  section.main-brand .container .cont-brands img {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  section.main-brand .container .cont-brands {
+    width: 100%;
+  }
+  section.main-brand .container .cont-brands img {
+    width: calc((100% / 2) - 40px);
+    margin: 20px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
   .main-costumers {
     width: 100%;
     text-align: center;
