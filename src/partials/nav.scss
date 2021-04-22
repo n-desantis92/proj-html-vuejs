@@ -54,6 +54,11 @@ height: 60px;
       & i.fa-shopping-cart {
         transform: rotateY(180deg);
       }
+
+      & i.fas.fa-bars {
+        font-size: 25px;
+        display: none;
+      }
     }
   }
 
