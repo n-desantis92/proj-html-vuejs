@@ -620,12 +620,13 @@ footer .container ul li a {
     width: 80px;
     height: 100%;
     position: absolute;
-    right: 0;
+    right: -75px;
     top: 0;
     align-items: center;
     flex-direction: column-reverse;
     background-color: #313C59;
     opacity: 0.8;
+    transition: transform 0.5s linear;
   }
   nav i.fas.fa-bars {
     display: block;
@@ -636,6 +637,9 @@ footer .container ul li a {
   nav .cont-menu {
     flex-direction: column;
     height: 100%;
+  }
+  nav .cont-menu:hover {
+    transform: translateX(-80px);
   }
   nav .logo {
     position: fixed;
